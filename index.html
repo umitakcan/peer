@@ -1,0 +1,97 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Peer</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="favicon/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="stylesheet" href="css/mobile-menu.css">
+</head>
+<body>
+  <div class="above-the-fold">
+    <div class="main-wrapper">
+      <img class="discover-btn fade-in two" src="images/discover.svg"/>
+      <div class="header-wrapper">
+        <a class="logo-link" href="index.html"><img class="logo" src="images/Peer.svg"/></a>
+        <div class="button_container" id="toggle">
+          <span class="top"></span>
+          <span class="middle"></span>
+          <span class="bottom"></span>
+        </div>
+        <div class="overlay" id="overlay">
+          <nav class="overlay-menu">
+            <ul>
+              <li><a class="active" href="index.html">About Us</a></li>
+              <li><a href="peers.html">Peers</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="https://medium.com/">Blog</a></li>
+              <li><a href="contact.html">Get in Touch</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="desktop-header-wrapper fade-in two">
+        <a href="index.html"><img class="logo" src="images/Peer.svg"/></a>
+          <nav class="desktop-menu">
+            <ul>
+              <li><a class="active" href="index.html">About Us</a></li>
+              <li><a href="peers.html">Peers</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="https://medium.com/">Blog</a></li>
+              <li><a href="contact.html">Get in Touch</a></li>
+            </ul>
+          </nav>
+      </div>
+      <div class="vertical-center">
+        <div class="main-title-container">
+            <h1 class="slides">We value</h1>
+            <h1 class="slides">We value</h1>
+        </div>
+        <div class="main-title-container-2">
+            <h1 class="slider green-text">Decentralization</h1>
+            <h1 class="slider green-text">Distributed Economy</h1>
+        </div>
+      </div>
+      <div class="subtext-area">
+        <div class="horizontal-line"></div>
+        <p class="subtext">Peer is a network of entrepreneurs, engineers, and investors, striving to accelerate the             transition to global distributed economy through peer-to-peer technologies.  
+        </p>
+        <div class="horizontal-line line-2"></div>
+        <p class="subtext">Peer is a network of entrepreneurs, engineers, and investors, striving to accelerate the             transition to global distributed economy through peer-to-peer technologies.  
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+<script type="text/javascript" src="app.js"></script>
+<script>
+  $('#toggle').click(function() {
+   $(this).toggleClass('active');
+   $('#overlay').toggleClass('open');
+  });
+</script>
+</html>
